@@ -26,6 +26,9 @@ const IndexPage = () => (
         </a>
       </li>
     </ul>
+    <p>
+      Don't forget to edit <code>gatsby-config.js</code>
+    </p>
   </Layout>
 )
 
