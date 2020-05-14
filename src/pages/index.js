@@ -1,20 +1,31 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
+    <h1>Hi Uzoma</h1>
     <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <p>Are you going to use a CSS framework on this project?</p>
+    <ul>
+      <li>
+        <a href="https://www.gatsbyjs.org/docs/bulma/" target="blank_" rel="noopener noreferrer">
+          Bulma
+        </a>
+      </li>
+      <li>
+        <a href="https://www.gatsbyjs.org/docs/tailwind-css/" target="blank_" rel="noopener noreferrer">
+          Tailwind
+        </a>
+      </li>
+      <li>
+        <a href="https://www.gatsbyjs.org/docs/css-libraries-and-frameworks/" target="blank_" rel="noopener noreferrer">
+          Other
+        </a>
+      </li>
+    </ul>
   </Layout>
 )
 
