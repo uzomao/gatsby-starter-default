@@ -11,6 +11,9 @@ const IndexPage = () => (
       <p>
         Don't forget to edit <code>gatsby-config.js</code>
       </p>
+      <p>
+        And to add <code>GATSBY_GRAPHQL_IDE=playground</code> to <code>.env</code>
+      </p>
     </section>
   </Layout>
 )
